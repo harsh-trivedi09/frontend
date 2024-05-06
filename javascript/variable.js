@@ -1,1 +1,4 @@
 //variables
+//var
+//let
+//const
