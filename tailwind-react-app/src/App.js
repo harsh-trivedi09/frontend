@@ -1,6 +1,7 @@
 import Group from "./Components/Group";
 import Navbar from "./Components/NavBar";
 import React, { useState } from 'react';
+import Groupname from "./Components/Groupname";
 
 
 export default function App() {
@@ -18,7 +19,9 @@ export default function App() {
   return (
     <>
       <Navbar addCount={addCount} lessCount={lessCount} data={data}/>
+      <Groupname addCount={addCount} lessCount={lessCount} data={data} />
       <Group addCount={addCount} lessCount={lessCount} data={data}/>
+      
     </>
   );
 }
