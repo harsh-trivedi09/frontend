@@ -5,9 +5,9 @@ class Classcomponent extends Component
     render()
     {
         return(
-            <div>
+            <>
                 <h1>" This is Class based Component " </h1>
-            </div>
+            </>
         )
     }
 }
